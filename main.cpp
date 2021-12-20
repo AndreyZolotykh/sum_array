@@ -6,7 +6,7 @@
 using namespace std::chrono;
 
 int main() {
-    const int array_size = 100'000'000;
+    const int array_size = 10'000'000;
     const int number_threads = 4;
 
     unsigned int n = std::thread::hardware_concurrency();
